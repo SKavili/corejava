@@ -7,7 +7,7 @@ import java.util.Vector;
 
 public class SwitchDemo {
     public static void main(String[] args) {
-        //m1();
+        m1();
         //m2();
         //m3();
         Vector <Integer> v = new Vector<>();
@@ -76,11 +76,11 @@ public class SwitchDemo {
         switch(3) {
 
             case 1:
-                System.out.println("One");
+                System.out.println(1);
             case 2:
-                System.out.println("Two");
+                System.out.println(2);
             case 3:
-                System.out.println("Three");
+                System.out.println(3);
                 break;
             default:
                 System.out.println("Other value");
