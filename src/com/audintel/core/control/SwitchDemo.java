@@ -14,6 +14,14 @@ public class SwitchDemo {
         v.add(11);
         v.add(21);
         m4(v);
+
+        Stack <Integer> v1 = new Stack<>();
+        v1.add(22);
+        m4(v1);
+        m5();
+    }
+
+    private static void m5() {
     }
 
     private static void m4(Collection c) {
