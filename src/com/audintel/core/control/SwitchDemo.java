@@ -82,5 +82,24 @@ public class SwitchDemo {
                 System.out.println("Other value");
         }
     }
+    private static void mm() {
+
+
+        switch(2) {
+
+            case 1:
+                System.out.println("in bus");
+                return ;
+            case 2:
+                System.out.println("in train");
+                return ;
+            case 3:
+                System.out.println("in flight");
+                return ;
+            default:
+                System.out.println("postpone the plan");
+                return ;
+        }
+    }
 
 }
