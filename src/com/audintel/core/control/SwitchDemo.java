@@ -10,6 +10,7 @@ public class SwitchDemo {
 
         //m4(v1);
         addnums(3,5);
+        System.out.println(sum(1,2));
     }
 
     private static void addnums(int a,int b) {
