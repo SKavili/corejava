@@ -8,7 +8,7 @@ import java.util.Vector;
 public class SwitchDemo {
     public static void main(String[] args) {
         //m1();
-        //m2();
+        System.out.println(m2());
         //m3();
         Vector <Integer> v = new Vector<>();
         v.add(11);
