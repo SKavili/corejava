@@ -7,22 +7,13 @@ import java.util.Vector;
 
 public class SwitchDemo {
     public static void main(String[] args) {
-        //m1();
-        System.out.println(m2());
-        //m3();
-        System.out.println(sum(1,2));
-        Vector <Integer> v = new Vector<>();
-        v.add(11);
-        v.add(21);
-        m4(v);
 
-        Stack <Integer> v1 = new Stack<>();
-        v1.add(22);
-        m4(v1);
-        m5();
+        //m4(v1);
+        addnums(3,5);
     }
 
-    private static void m5() {
+    private static void addnums(int a,int b) {
+        System.out.println(a+b);
     }
 
     private static void m4(Collection c) {
