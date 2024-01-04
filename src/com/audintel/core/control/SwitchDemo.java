@@ -8,7 +8,7 @@ import java.util.Vector;
 public class SwitchDemo {
     public static void main(String[] args) {
         //m1();
-        //m2();
+        System.out.println(m2());
         //m3();
         System.out.println(sum(1,2));
         Vector <Integer> v = new Vector<>();
@@ -19,6 +19,10 @@ public class SwitchDemo {
         Stack <Integer> v1 = new Stack<>();
         v1.add(22);
         m4(v1);
+        m5();
+    }
+
+    private static void m5() {
     }
 
     private static void m4(Collection c) {
@@ -86,6 +90,30 @@ public class SwitchDemo {
             default:
                 System.out.println("Other value");
         }
+    }
+    private static void mm() {
+
+
+        switch(2) {
+
+            case 1:
+                System.out.println("in bus");
+                return ;
+            case 2:
+                System.out.println("in train");
+                return ;
+            case 3:
+                System.out.println("in flight");
+                return ;
+            default:
+                System.out.println("postpone the plan");
+                return ;
+        }
+    }
+    private static int sum(int a,int b){
+        int c=0;
+        c=a+b;
+        return c;
     }
 
 }
