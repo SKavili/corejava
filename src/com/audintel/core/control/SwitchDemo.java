@@ -18,16 +18,16 @@ public class SwitchDemo {
 
     private static void m4(Collection c) {
 
-    switch(c) {
+    Object o = switch(c) {
 
         case Stack s -> s.get(1);
         case Vector v -> v.get(1);
         case ArrayList a -> a.get(1);
-        default -> System.out.println();
+        default -> new Vector<>();
+    };
 
+    System.out.println(o);
 
-
-    }
 }
     private static void m3() {
 
