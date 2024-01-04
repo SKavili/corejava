@@ -10,6 +10,7 @@ public class SwitchDemo {
         //m1();
         System.out.println(m2());
         //m3();
+        System.out.println(sum(1,2));
         Vector <Integer> v = new Vector<>();
         v.add(11);
         v.add(21);
@@ -108,6 +109,11 @@ public class SwitchDemo {
                 System.out.println("postpone the plan");
                 return ;
         }
+    }
+    private static int sum(int a,int b){
+        int c=0;
+        c=a+b;
+        return c;
     }
 
 }
