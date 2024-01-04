@@ -17,8 +17,11 @@ public class SwitchDemo {
 
         Stack <Integer> v1 = new Stack<>();
         v1.add(22);
-        v1.add(23);
         m4(v1);
+        m5();
+    }
+
+    private static void m5() {
     }
 
     private static void m4(Collection c) {
