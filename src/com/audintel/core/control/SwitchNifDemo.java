@@ -5,7 +5,7 @@ import java.util.Collection;
 import java.util.Stack;
 import java.util.Vector;
 
-public class SwitchDemo {
+public class SwitchNifDemo {
     public static void main(String[] args) {
         //m1();
         System.out.println(m2());
@@ -18,24 +18,69 @@ public class SwitchDemo {
 
         Stack <Integer> v1 = new Stack<>();
         v1.add(22);
-      //  m4(v1);
-       // m5();
+       // m4(v1);
+        m5();
     }
 
     private static void m5() {
+
+   // Switch with case having multiple values
+        switch ("") {
+
+            case "Monday", "Tues" -> {
+
+                int a=10;
+
+            }
+
+
+
+
+            default -> {
+            }
+        }
+
+        switch(1) {
+
+            case 1,2,3,4:
+               if(true)
+                   System.out.println("Swith with If");
+               switch(2) {
+                   case 1:
+                       if(true)
+                           System.out.println("Swith with If");
+               }
+            default: ;
+
+        }
+
+        Object obj=null;
+//        switch(obj) {
+//            case String str:
+//                if(str.equals("IT")) {
+//
+//                }
+//                break;
+//            case null: ;
+//            default:
+//                throw new IllegalStateException("Unexpected value: " + obj);
+//        }
+
+
+
     }
 
     private static void m4(Collection c) {
 
-//    Object o = switch(c) {
-//
+    Object o = switch("") {
+
 //        case Stack s -> s.get(1);
 //        case Vector v -> v.get(1);
 //        case ArrayList a -> a.get(1);
-//        default -> new Vector<>();
-//    };
+        default -> new Vector<>();
+    };
 
-
+    System.out.println(o);
 
 }
     private static void m3() {
