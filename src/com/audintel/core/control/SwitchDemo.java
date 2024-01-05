@@ -19,7 +19,7 @@ public class SwitchDemo {
         v1.add(22);
         v1.add(23);
         m4(v1);
-        m6();
+        method6();
     }
 
     private static void m4(Collection c) {
@@ -88,7 +88,7 @@ public class SwitchDemo {
                 System.out.println("Other value");
         }
     }
-    public static void m6()
+    public static void method6()
     {
         System.out.println("method 5");
     }
