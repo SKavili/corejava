@@ -12,7 +12,7 @@ class SingletonClass{
     private static SingletonClass s;
     private SingletonClass(){
         System.out.println("Object Initialised");
-    };
+    }
 
     public static SingletonClass getInstatnce(){
         s = new SingletonClass();
