@@ -1,6 +1,5 @@
 package com.audintel.saitejam;
 
-import java.sql.SQLOutput;
 
 public class FunctionalInterfaceTest {
     PowerVal p = (a,b) -> Math.floor(Math.log(a)/Math.log(b));
@@ -12,5 +11,5 @@ public class FunctionalInterfaceTest {
 
 @FunctionalInterface
 interface PowerVal{
-    abstract double powerVal(int a, int b);
+    double powerVal(int a, int b);
 }
