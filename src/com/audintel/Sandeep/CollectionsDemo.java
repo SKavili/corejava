@@ -26,11 +26,23 @@ class CollectionsDemo {
 
         l.sort(Collections.reverseOrder());
 
-        for (int item : l) {
-            System.out.print(item + " ");
+        for (int i : l) {
+            System.out.print(i + " ");
         }
+        System.out.println();
 
 //        int f=Collections.find(l,num->num%2==0);
+
+        int ind=Collections.binarySearch(l,5);
+        System.out.println(ind);
+
+        List<Integer> list1 = new ArrayList<>(List.of(1, 3, 5));
+        List<Integer> list2 = new ArrayList<>(List.of(2, 4, 6));
+        list1.addAll(list2);
+        for(int i:list1){
+            System.out.print(i + " ");
+        }
+
     }
 }
 
