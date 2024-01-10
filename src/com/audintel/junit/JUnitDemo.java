@@ -22,4 +22,12 @@ public class JUnitDemo{
         int r=  add(1,2);
         TestCase.assertEquals(3, r);
     }
+
+    @Test
+    public void testF(){
+        int r=add(1,2);
+        TestCase.assertFalse("Sum is true",r!=3);
+    }
 }
+
+
