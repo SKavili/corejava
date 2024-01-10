@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashSet;
 
+
 public class CollectionTest {
     public static void main(String[] args) {
 //        Without generics
