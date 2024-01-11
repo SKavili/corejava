@@ -2,7 +2,7 @@ package com.audintel.exceptions;
 
 public class Parent {
 
-   void cancel() throws ArithmeticException{
+   void cancel() throws Exception{
 
     }
 }
