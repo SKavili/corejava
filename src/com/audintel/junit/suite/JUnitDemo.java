@@ -1,14 +1,12 @@
-package com.audintel.junit;
+package com.audintel.junit.suite;
+
 
 
 import junit.framework.TestCase;
 import org.junit.Test;
 
-public class JUnitDemo{
-    int add(int a, int b){
+public class JUnitDemo extends AddNumbers{
 
-        return a+b;
-    }
     @Test
     public void testAdd(){
 
