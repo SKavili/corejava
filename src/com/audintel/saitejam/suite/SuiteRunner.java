@@ -1,4 +1,4 @@
-package com.audintel.junit.suite;
+package com.audintel.saitejam.suite;
 
 
 import org.junit.runner.RunWith;
@@ -9,7 +9,3 @@ import org.junit.runners.Suite;
 @Suite.SuiteClasses({JunitTest.class, JUnitDemo.class})
 public class SuiteRunner {
 }
-
-
-
-

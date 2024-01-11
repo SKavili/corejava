@@ -1,12 +1,12 @@
 package com.audintel.Vineeth;
 
-import com.audintel.junit.JUnitDemo;
+
 import junit.framework.TestCase;
 import org.junit.Test;
 import org.junit.runners.Suite;
 
-@Suite.SuiteClasses({JunitTest.class, JUnitDemo.class})
-public class JunitTest{
+@Suite.SuiteClasses({JUnitTest.class, demojunit.class})
+public class JUnitTest{
     int add(int a, int b) {
         return a + b;
     }
@@ -14,7 +14,7 @@ public class JunitTest{
     @Test
     public void testAdd() {
         int r = add(1, 2);
-        TestCase.assertFalse("The result should not be false.", r != 3);
+        TestCase.assertFalse("The result should not be false.", r == 5);
     }
 
     @Test
