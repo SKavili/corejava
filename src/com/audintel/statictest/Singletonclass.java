@@ -8,7 +8,7 @@ public class Singletonclass {
     private static class Holder{
         private static final Singletonclass Instance=new Singletonclass();
     }
-    public Singletonclass getInstance(){
+    public static Singletonclass getInstance(){
             return Holder.Instance;
     }
 

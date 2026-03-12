@@ -1,4 +1,4 @@
-package com.audintel.singletonpkg;
+package com.audintel.saitejam;
 
 public class SingletonTest {
     public static void main(String[] args) {
